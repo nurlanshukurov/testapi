@@ -29,5 +29,11 @@ namespace testapi.Controllers
             })
             .ToArray();
         }
+        [HttpPost]
+        public IActionResult Post()
+        {
+            var rng = new Random();
+            return Ok();
+        }
     }
 }
