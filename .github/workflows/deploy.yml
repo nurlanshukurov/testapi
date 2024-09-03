@@ -29,7 +29,7 @@ jobs:
 
       - name: Deploy to server
         env:
-          DOCKER_HOST: ssh://root@194.163.141.59
+          DOCKER_HOST: ssh://root@109.199.105.149
         run: |
           docker pull nanshukur/testapi
           docker stop testapi-container || true
