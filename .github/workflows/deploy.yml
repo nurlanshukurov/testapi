@@ -24,7 +24,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t nanshukur/testapi ../Dockerfile
+          docker build -t nanshukur/testapi ./testapi/Dockerfile
           docker push nanshukur/testapi
 
       - name: Deploy to server
