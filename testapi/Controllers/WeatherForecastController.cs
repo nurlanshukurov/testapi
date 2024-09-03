@@ -39,7 +39,7 @@ namespace testapi.Controllers
         public IActionResult Get(int id)
         {
             var rng = new Random();
-            return Ok("sdfdsfds111115555555555555555");
+            return Ok("salam");
         }
     }
 }
