@@ -42,6 +42,6 @@ jobs:
           DOCKER_HOST: ssh://root@109.199.105.149
         run: |
           docker pull nanshukur/testapi
-          docker stop testapi-container || true
-          docker rm testapi-container || true
-          docker run -d -p 5000:80 --name testapi-container nanshukur/testapi
+          docker stop testapi1-container || true
+          docker rm testapi1-container || true
+          docker run -d -p 5000:80 --name testapi1-container nanshukur/testapi
