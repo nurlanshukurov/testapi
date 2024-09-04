@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Proje dosyasını kopyala ve restore et
 # Projenin tam adıyla .csproj dosyasını kopyala
-COPY ["testapi/testapi.csproj", "./"]
+COPY *.csproj .
 
 # Restore işlemi
 RUN dotnet restore
