@@ -25,3 +25,5 @@ EXPOSE 8080
 
 # Uygulamayı başlat
 ENTRYPOINT ["dotnet", "testapi.dll"]
+
+ENV ASPNETCORE_URLS=http://+:80
