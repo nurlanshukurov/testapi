@@ -35,11 +35,6 @@ namespace testapi.Controllers
             var rng = new Random();
             return Ok();
         }
-        [HttpGet("getdata/{id}")]
-        public IActionResult Get(int id)
-        {
-            var rng = new Random();
-            return Ok("dsfdsfds");
-        }
+
     }
 }
